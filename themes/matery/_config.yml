@@ -37,8 +37,8 @@ cover:
 dream:
   enable: false
   showTitle: false
-  title: 神秘嘉宾
-  text: 我搬到谁的隔壁，谁成了我的邻居。鸣谢生命有你参与，笑纳我的邀请。
+  title: 星芒
+  text: 我是谁，我自何来，我欲何去？
   img:
 
 # Whether to display the musics.
@@ -48,7 +48,7 @@ music:
   showTitle: false
   title: 听听音乐
   fixed: false # 开启吸底模式
-  autoplay: true # 是否自动播放
+  autoplay: false # 是否自动播放
   theme: '#542674'
   loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
@@ -93,17 +93,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/MUYIio/hexo-themes-matery
+  url: https://zenglin-cloud.github.io
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github: MUYIio
-  csdn: weixin_45682081
-  zhihu: zhihu.com/people/muyiio
-  qq: 1571504536 
-  email: 1571504536@qq.com
+  github: ZengLin-cloud
+  csdn: 
+  zhihu: 
+  qq: 42250303
+  email: 42250303@qq.com
 
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -169,8 +169,8 @@ text:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: https://muyiio-1300292673.cos.ap-chongqing.myqcloud.com/%E5%8D%9A%E5%AE%A2/%E5%A4%B4%E5%83%8F/%E5%A4%B4%E5%83%8F.jpg
-  career: 计算机科学与技术 | C++ | Algorithms
-  introduction: 一个简单的个人博客，记录一下学习过程，欢迎你来到我的小站，有不对的地方欢迎指正！有问题可以联系我，也欢迎与我交流探讨！
+  career: 计算机科学与技术 | Java | Algorithms
+  introduction: 一颗星芒，
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.

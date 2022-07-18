@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 何为曾麟
+title: ZengLin_Cloud
 subtitle: 何其所思，何其所为？
 description: 思想 | Code | Algorithm 
-keywords: "学习，痛且苦"
-author: zl
+keywords: "我思，我在"
+author: ZL
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zenglin-cloud.github.io/
-root: /
+url: https://zenglin-cloud.github.io
+root: 
 permalink: :title.html
 permalink_defaults:
 
@@ -39,9 +39,9 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: false
-  line_number: false
-  auto_detect: false
+  enable: true #使用代码高亮
+  line_number: true #显示行号
+  auto_detect: true #自动检测语言
   tab_replace:
 
 prism_plugin:
@@ -100,23 +100,23 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 12
+per_page: 12 #每页显示文章量
 pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: matery
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
+  type: git
   repository:
-    github: https://github.com/ZengLin-cloud/ZengLin-cloud.github.io.git
-    coding: 
-    #gitee: 
-    #repo: root@118.25.27.52 :/home/git/blog.git
+  github: https://github.com/ZengLin-cloud/ZengLin-cloud.github.io.git
+  coding:
+  ##gitee: 
+  ## repo: https://github.com/ZengLin-cloud/ZengLin-cloud.github.io.git
   branch: master
 - type: baidu_url_submitter
 
